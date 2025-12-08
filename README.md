@@ -2,26 +2,25 @@
 
 Official PyTorch implementation of the paper Age-Inclusive 3D Human Mesh Recovery for Action-Preserving Data Anonymization
 
-[Project page](https://gioxatz.github.io/aionhmr/) | [ArXiv](https://arxiv.org/)
+
+[![arXiv](https://img.shields.io/badge/arXiv-2512.05259-B31B1B.svg)](https://arxiv.org/abs/2512.05259)
+
 
 <img src="./assets/teaser.png">
 
 
 
-<!-- --- -->
 
-<!-- ## 🔗 ArXiv Link
+# Citation
 
-You can find the full paper on ArXiv here:
-
-[Link to ArXiv Paper](https://arxiv.org/abs/xxxxxxxx)
-
-**Cite this work:**
-
+If you find this work useful for your research, please consider citing our paper:
 ```bibtex
-@article{YourLastNameYear,
-  title={Full Title of Your Paper},
-  author={Your Name(s) and Co-author(s)},
-  journal={arXiv preprint arXiv:xxxxxxxx},
-  year={Year}
-} -->
+@misc{chatzichristodoulou2025ageinclusive3dhumanmesh,
+  title={Age-Inclusive 3D Human Mesh Recovery for Action-Preserving Data Anonymization}, 
+  author={Georgios Chatzichristodoulou and Niki Efthymiou and Panagiotis Filntisis and Georgios Pavlakos and Petros Maragos},
+  year={2025},
+  eprint={2512.05259},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2512.05259}, 
+}
