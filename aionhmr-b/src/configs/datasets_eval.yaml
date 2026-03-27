@@ -1,0 +1,38 @@
+3DPW-TEST:
+    TYPE: ImageDataset
+    DATASET_FILE: evaluation_data/3dpw_test.npz
+    IMG_DIR: /gpu-data2/gchatz/hmr2_val/3DPW/
+    KEYPOINT_LIST: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 43]
+    USE_HIPS: False
+
+EMDB:
+    TYPE: EMDBDataset
+    DATASET_FILE: EMDB/emdb_for_hmr2.npz
+    IMG_DIR: EMDB
+    KEYPOINT_LIST: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+
+
+COCO-VAL:
+    TYPE: ImageDataset
+    DATASET_FILE: evaluation_data/coco_val.npz
+    IMG_DIR: /gpu-data2/gchatz/hmr2_val/coco/
+    KEYPOINT_LIST: [0] # Dummy
+
+SYRIP:
+    TYPE: ImageDataset
+    DATASET_FILE: evaluation_data/syrip_test.npz
+    IMG_DIR: /gpu-data2/gchatz/syrip_for_train/syrip/images/validate_infant/
+    KEYPOINT_LIST: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+
+RH:
+    TYPE: ImageDataset
+    DATASET_FILE: evaluation_data/rh_test.npz
+    IMG_DIR: /gpu-data2/gchatz/RelativeHuman/test/
+    KEYPOINT_LIST: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+
+CHILDPLAY:
+    TYPE: ImageDataset
+    DATASET_FILE: evaluation_data/childplay_test.npz
+    IMG_DIR: /gpu-data2/gchatz/childplay_gaze_bev/images/
+    KEYPOINT_LIST: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]
+    USE_HIPS: True

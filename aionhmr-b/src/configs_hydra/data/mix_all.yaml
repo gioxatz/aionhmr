@@ -1,0 +1,31 @@
+# @package _global_
+defaults:
+  - /data_filtering: low1
+
+DATASETS:
+  TRAIN: 
+    H36M-TRAIN-WMASK:
+      WEIGHT: 0.04
+    MPII-TRAIN-WMASK:
+      WEIGHT: 0.04
+    COCO-TRAIN-2014-WMASK-PRUNED:
+      WEIGHT: 0.04
+    COCO-TRAIN-2014-VITPOSE-REPLICATE-PRUNED12:
+      WEIGHT: 0.04
+    MPI-INF-TRAIN-PRUNED:
+      WEIGHT: 0.04
+    AionHMR-TRAIN:
+      WEIGHT: 0.5
+    AVA-TRAIN-MIDFRAMES-1FPS-WMASK:
+      WEIGHT: 0.1
+    AIC-TRAIN-WMASK:
+      WEIGHT: 0.1
+    INSTA-TRAIN-WMASK:
+      WEIGHT: 0.1
+  VAL:
+    AionHMR-VAL:
+      WEIGHT: 0.5
+    COCO-VAL:
+      WEIGHT: 0.5
+
+  MOCAP: CMU-MOCAP
